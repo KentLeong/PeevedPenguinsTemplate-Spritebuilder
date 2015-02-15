@@ -54,6 +54,11 @@
     
     [self setupCocos2dWithOptions:cocos2dSetup];
     
+    [CCBReader load:@"Penguin"];
+    [CCBReader load:@"Seal"];
+    
+
+    
     return YES;
 }
 
@@ -61,5 +66,7 @@
 {
     return [CCBReader loadAsScene:@"MainScene"];
 }
+
+
 
 @end
